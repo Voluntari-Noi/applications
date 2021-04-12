@@ -54,7 +54,7 @@
         </div>
 
         <h4>Aplicații în lucru:</h4>
-        <div class="app-item">
+        <div class="app-item wip">
           <div class="app-logo">
             <img src="./images/puzzle.png" alt="puzzle" />
           </div>
@@ -68,7 +68,7 @@
           </div>
         </div>
 
-        <div class="app-item">
+        <div class="app-item wip">
           <div class="app-logo">
             <img src="./images/books.png" alt="books" />
           </div>
@@ -82,7 +82,7 @@
           </div>
         </div>
 
-        <div class="app-item">
+        <div class="app-item wip">
           <div class="app-logo">
             <img src="./images/questions.png" alt="books" />
           </div>
@@ -96,7 +96,7 @@
           </div>
         </div>
 
-        <p class="call-to-action">Vrei să te alături echipei de programatori și să ajuți la implementarea aplicațiilor? &nbsp;&nbsp; <a href="https://pentrucer.net/contact/" class="btn btn-danger">Contactează-ne</a></p>
+        <p class="call-to-action">Vrei să te alături <a href="https://github.com/Voluntari-Noi">echipei de programatori</a> și să ajuți la implementarea aplicațiilor? &nbsp;&nbsp; <a href="https://pentrucer.net/contact/" class="btn btn-danger">Contactează-ne</a></p>
       </div>
     </div>
   </div>
@@ -128,6 +128,14 @@
   div.applications-container div.app-item.done {
     border: 5px solid #00aeef;
     background: white;
+  }
+
+  div.applications-container div.app-item.wip {
+    opacity: 0.6;
+  }
+
+  div.applications-container div.app-item.wip:hover {
+    opacity: 1;
   }
 
   div.applications-container div.app-item div.app-logo {
