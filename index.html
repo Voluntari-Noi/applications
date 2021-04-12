@@ -31,7 +31,7 @@
       <div class="applications-container">
         <div class="app-item">
           <div class="app-logo">
-            logo here
+            <img src="./images/versete.png" alt="versete-de-memorat" />
           </div>
           <div class="app-info">
             <h2 class="app-title">
@@ -79,6 +79,7 @@
   }
 
   div.applications-container {
+    margin-top: 20px;
     background: #f9f9f9;
     padding: 20px;
     border: 1px solid #eee;
@@ -88,6 +89,24 @@
     border: 5px solid #eee;
     margin-bottom: 20px;
     padding: 20px;
+    clear: both;
+    overflow: auto;
+  }
+
+  div.applications-container div.app-item div.app-logo {
+    float: left;
+    width: 100px;
+    margin-right: 20px;
+  }
+
+  div.applications-container div.app-item div.app-logo img {
+    width: 100px;
+    height: auto;
+  }
+
+  div.applications-container div.app-item div.app-info {
+    float: right;
+    width: calc(100% - 120px);
   }
 
   div.applications-container div.app-item:hover {
