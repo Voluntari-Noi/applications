@@ -29,10 +29,13 @@
     </div>
     <div class="col-lg-10 col-md-6 col-sm-12 col-xs-12">
       <div class="applications-container">
-        <div class="app-item">
+        <h4>Aplicații lansate:</h4>
+
+        <div class="app-item done">
           <div class="app-logo">
             <img src="./images/versete.png" alt="versete-de-memorat" />
           </div>
+
           <div class="app-info">
             <h2 class="app-title">
               <a href="https://pentrucer.net/aplicatii/versete-de-memorat/">
@@ -46,9 +49,10 @@
           </div>
         </div>
 
+        <h4>Aplicații în lucru:</h4>
         <div class="app-item">
           <div class="app-logo">
-            logo here
+            <img src="./images/puzzle.png" alt="puzzle" />
           </div>
           <div class="app-info">
             <h2 class="app-title">Puzzle cu versete</h2>
@@ -58,13 +62,25 @@
 
         <div class="app-item">
           <div class="app-logo">
-            logo here
+            <img src="./images/books.png" alt="books" />
           </div>
           <div class="app-info">
-            <h2 class="app-title">Title</h2>
-            <p class="app-description">Lorem ipsun dolor sit amet.</p>
+            <h2 class="app-title">Cărțile Bibliei</h2>
+            <p class="app-description">Învață ordinea cărților Bibliei jucându-te acest joc. Aplicația va fi lansată în curând. O versiune demonstrativă avem <a href="https://voluntari-noi.github.io/bible-books-app/">aici</a>.</p>
           </div>
         </div>
+
+        <div class="app-item">
+          <div class="app-logo">
+            <img src="./images/questions.png" alt="books" />
+          </div>
+          <div class="app-info">
+            <h2 class="app-title">Întrebări Biblice</h2>
+            <p class="app-description">Testează-ți cunoștințele biblice și învață lucruri noi folosind aplicația noastră cu întrebări biblice. O versiune demonstrativă avem <a href="https://voluntari-noi.github.io/bible-questions-app/">aici</a>.</p>
+          </div>
+        </div>
+
+        <p class="call-to-action">Vrei să te alături echipei de programatori și să ajuți la implementarea aplicațiilor? &nbsp;&nbsp; <a href="https://pentrucer.net/contact/" class="btn btn-success">Contactează-ne</a></p>
       </div>
     </div>
   </div>
@@ -93,6 +109,10 @@
     overflow: auto;
   }
 
+  div.applications-container div.app-item.done {
+    border: 5px solid blue;
+  }
+
   div.applications-container div.app-item div.app-logo {
     float: left;
     width: 100px;
@@ -111,6 +131,12 @@
 
   div.applications-container div.app-item:hover {
     border: 5px solid #333;
+  }
+
+  p.call-to-action {
+    background: blue;
+    color: white;
+    padding: 20px;
   }
 </style>
 </body>
